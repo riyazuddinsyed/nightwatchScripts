@@ -17,8 +17,8 @@ nightwatch_config = {
       globals_path: "test-globals.js",
       desiredCapabilities: {
         'build': 'nightwatch-browserstack',
-        'browserstack.user': 'riyazsyed1' || 'BROWSERSTACK_USERNAME',
-        'browserstack.key': 'U2eaPrQsoQLzYvb9FvLa' || 'BROWSERSTACK_ACCESS_KEY',
+        'browserstack.user': process.env.BROWSERSTACK_USERNAME || 'BROWSERSTACK_USERNAME',
+        'browserstack.key': process.env.BROWSERSTACK_ACCESS_KEY || 'BROWSERSTACK_ACCESS_KEY',
         'browserstack.debug': true,
         'browserstack.local': true,
         'os': 'Windows',
