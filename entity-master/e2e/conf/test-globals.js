@@ -22,7 +22,6 @@ module.exports = {
 			line2: "SOINTULA BC V0N 3E0",
 			line3: "Canada"
 		},
-
 		director7:{
 			firstname:"test",
 			lastname:"test2",

@@ -29,7 +29,9 @@ var CodFilingsCommands = {
         .click('@AppointNewDirectorButton')
     },
     AddNewDirector: function (directorObject7,number) {
-        return this.waitForElementVisible('@firstname')
+        var _this = this;
+        return this
+        .waitForElementVisible('@firstname')
         .waitForElementNotVisible('button.new-director-btn')
         .setValue('@firstname',directorObject7.firstname)
         .waitForElementVisible('@lastname')
@@ -38,14 +40,13 @@ var CodFilingsCommands = {
         .setValue('@streetaddress',directorObject7.street)
         .waitForElementVisible('@City')
         .setValue('@City',directorObject7.city)
-        .waitForElementVisible('@province')
-        .click('@province')
-        .waitForElementVisible('@BC')
-        .click('@BC')
+        .waitForElementVisible('@Province')
+        .setValue('@Province',directorObject7.province)
         .waitForElementVisible('@postalcode')
         .setValue('@postalcode',directorObject7.postalcode)
         .waitForElementVisible('@country')
-        .setValue('@country',directorObject7.country)
+        .click('@country')
+        .click('@NewDirectorCountry')
         .waitForElementVisible('@completeAppointingDirector')
         .click('@completeAppointingDirector')
        // .assert.visible('@edit')
@@ -65,6 +66,15 @@ var CodFilingsCommands = {
                     .assert.containsText(this.getDynamicElement('dynamicPostalCode', number), directorObject.postalCode)
                     .assert.containsText(this.getDynamicElement('dynamicCountry', number), directorObject.country)
                     .assert.containsText(this.getDynamicElement('dynamicAppointedDate', number), directorObject.appointedDate);                
+       },
+
+       reviewPage:function(browser){
+           return this
+           .waitForElementVisible('@header')
+           .assert.containsText('@header','Review: Director Change')
+           //scripts to be added
+           .click('@fileAndPayButton')
+
        },
     editChangeOfAddress: function(directorObject,number) {
         return this
@@ -92,33 +102,22 @@ module.exports={
         feeTotal: "div.fee-total__value",
         AppointNewDirectorButton: "#directors > div:nth-child(2) > button",
         firstname: "#new-director__first-name",
-        initial: 
-        {
-           selector: "/html/body/div/div/div[4]/main/div[2]/div[5]/div[2]/article/section[1]/div/div[3]/ul[1]/li/div/div/form/div[1]/div[2]/div/div[1]/div/input",
-           locateStatergy: "xpath",
-        },
-        lastname: {
-            selector:"/html/body/div/div/div[4]/main/div[2]/div[5]/div[2]/article/section[1]/div/div[3]/ul[1]/li/div/div/form/div[1]/div[3]/div/div[1]/div/input",
-            locateStrategy: "xpath",
-        },
-        streetaddress: {
-            selector:"/html/body/div/div/div[4]/main/div[2]/div[5]/div[2]/article/section[1]/div/div[3]/ul[1]/li/div/div/form/div[2]/div/form/div[1]/div/div/div[1]/div/input",
-            locateStrategy: "xpath"
-        },
+        initial:"#new-director__middle-initial",
+        lastname: "#new-director__last-name",
+        streetaddress: "#directors > div.v-card.v-card--flat.v-sheet.theme--light > ul.list.new-director > li > div > div > form > div.address-wrapper > div > form > div:nth-child(1) > div > div > div.v-input__slot > div>input[type=text]",
         postalcode: "#directors > div.v-card.v-card--flat.v-sheet.theme--light > ul.list.new-director > li > div > div > form > div.address-wrapper > div > form > div.form__row.three-column > div:nth-child(3) > div > div.v-input__slot > div>input[type=text]",
-        deliveryinstructions: {
-        selector:"/html/body/div/div/div[4]/main/div[2]/div[5]/div[2]/article/section[1]/div/div[3]/ul[1]/li/div/div/form/div[2]/div/form/div[5]/div/div/div[1]/div",
-          locateStratergy:"xpath",
+        City: ".address-city input",
+        Province: "#directors > div.v-card.v-card--flat.v-sheet.theme--light > ul.list.new-director > li > div > div > form > div.address-wrapper > div > form > div.form__row.three-column > div.v-input.item.address-region.theme--light.v-text-field.v-text-field--filled.v-text-field--is-booted.v-text-field--enclosed > div > div.v-input__slot > div>input[type=text]",
+        country:{
+            selector:"#directors > div.v-card.v-card--flat.v-sheet.theme--light > ul.list.new-director > li > div > div > form > div.address-wrapper > div > form > div:nth-child(4) > div > div > div.v-input__slot > div.v-select__slot > div.v-select__selections",
+            locateStrategy: "css selector",
         },
-        City: {
-            selector: '/html/body/div/div/div[4]/main/div[2]/div[5]/div[2]/article/section[1]/div/div[3]/ul[1]/li/div/div/form/div[2]/div/form/div[3]/div[1]/div/div[1]/div/input',
+        NewDirectorCountry:{
+            selector:"/html/body/div/div[1]/div/div/div[4]/div",
             locateStrategy: "xpath"
-        },
-        province: "#directors > div.v-card.v-card--flat.v-sheet.theme--light > ul.list.new-director > li > div > div > form > div.address-wrapper > div > form > div.form__row.three-column > div.v-input.item.theme--light.v-text-field.v-text-field--filled.v-text-field--is-booted.v-text-field--enclosed.v-select > div > div.v-input__slot > div.v-select__slot > div.v-select__selections",
 
-        BC: 'div:nth-of-type(1) > .v-list-item__content > .v-list-item__title',
-        country:
-           "#directors > div.v-card.v-card--flat.v-sheet.theme--light > ul.list.new-director > li > div > div > form > div.address-wrapper > div > form > div:nth-child(4) > div > div > div.v-input__slot > div>input[type=text]",
+        },
+           
         chevron: "#director-%s > div > div > div > div.actions > span:nth-child(2) > span > button > span > i",
         changeofaddress: "#app > div.v-menu__content.theme--light.menuable__content__active > div > div:nth-child(1) > div",
         
@@ -139,6 +138,8 @@ module.exports={
         dynamicCountry: "#director-%s > div > div > div > div.address > div > div > div > div:nth-child(4)",
         dynamicAppointedDate: "#director-%s > div > div > div > div.director_dates > div:nth-child(1)",
         dynamicCessationDate: "#director-%s > div > div > div > div > div.director_dates > div:nth-child(4)",
-        dynamicEditButton: "#director-%s-change-btn"
+        dynamicEditButton: "#director-%s-change-btn",
+        nextButton:"#cod-next-btn > span",
+        header:"#filing-header-review"
     },
 }

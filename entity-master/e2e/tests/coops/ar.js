@@ -10,11 +10,11 @@ module.exports = {
     
     'Enter contact information': function (browser) {
         relationship = browser.page.relationshipPage();
-        //relationship.enterContactInformation()
-       // relationship.createTeam()
-       // relationship.manageTeamPage()
-       // relationship.AddBusinesses()
-       // relationship.checkAddBusinessesSuccess()
+        relationship.enterContactInformation()
+        relationship.createTeam()
+        relationship.manageTeamPage()
+        relationship.AddBusinesses()
+        relationship.checkAddBusinessesSuccess()
         relationship.checkForAffliatedBusinesses()
     },
 
@@ -205,11 +205,10 @@ module.exports = {
 
   '19.Verify Dashboard after filing': function (browser) {
     dashboard = browser.page.dashboardPage();
-    dashboard.assert.containsText('@toDoListHeader', 'To Do (0)');
-    dashboard.assert.containsText('@filingHistoryHeader', 'Recent Filing History (1)');
+    dashboard.assert.containsText('@toDoListHeader', 'To Do (2)');
+    dashboard.assert.containsText('@filingHistoryHeader', 'Recent Filing History (56)');
     dashboard.assert.containsText('@topFilingInHistoryName', 'Annual Report');
-    dashboard.assert.containsText('@topFilingInHistoryStatus', 'FILED AND PAID');
-    dashboard.verifyDirectorCount(browser.globals.CP0000019.director_count + 1);
+   // dashboard.verifyDirectorCount(browser.globals.CP0000019.director_count + 1);
     dashboard.assert.containsText('@mailingAddressLabel', 'Mailing Address');
     dashboard.assert.containsText('@mailingLine1', '123 test street');
     dashboard.assert.containsText('@mailingLine2', 'Victoria BC V8V 4K9');

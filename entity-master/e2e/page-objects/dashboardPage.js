@@ -25,7 +25,7 @@ var dashboardCommands = {
     verifyTodolistandRecentFilings:function(){
         return this
         .assert.containsText('@toDoListHeader', 'To Do (3)')
-        .assert.cssClassNotPresent('@fileNowButton1', 'v-btn--disabled')
+        //.assert.cssClassNotPresent('@fileNowButton1', 'v-btn--disabled')
         .expect.element('@fileNowButton2').to.not.be.enabled
         //.assert.containsText('@recentHistory','Recent Filing History (55)')
     },
@@ -61,9 +61,9 @@ module.exports={
     elements:{
         entityName: "#entity-legal-name",
         identifier: "#entity-incorporation-number",
-        filingHistoryHeader: "#dashboardArticle > div > div > section:nth-child(2) > header > h2",
+        filingHistoryHeader: '[data-test-id="dashboard-filing-history-subtitle"]',
         noFilingsMessage: "#dashboardArticle > div > div > section:nth-child(2) > div > div.no-results.v-card.v-card--flat.v-sheet.theme--light > div > div.no-results__title",
-        topFilingInHistoryName: "#dashboardArticle > div > div > section:nth-child(2) > div > ul > li > div.v-expansion-panel__header > div.list-item > div.list-item__title",
+        topFilingInHistoryName: '#filing-history-list > div.v-item-group.theme--light.v-expansion-panels.v-expansion-panels--accordion > div.v-expansion-panel.align-items-top.filing-item.v-expansion-panel--active.v-item--active > button > div.list-item > div.filing-label > div.row > div > div',
         topFilingInHistoryStatus: "div.v-expansion-panel__header__status",
         officeAddressHeader: '[data-test-id="dashboard-addresses-subtitle"]',
         launchCOAButton: "#standalone-addresses-button > span > span",

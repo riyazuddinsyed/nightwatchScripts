@@ -8,11 +8,6 @@
     },
     'Enter contact information': function (browser) {
         relationship = browser.page.relationshipPage();
-        //relationship.enterContactInformation()
-       // relationship.createTeam()
-       // relationship.manageTeamPage()
-       // relationship.AddBusinesses()
-       // relationship.checkAddBusinessesSuccess()
         relationship.checkForAffliatedBusinesses()
     },
   '1.Verify initial state of dashboard, then start COA filing': function (browser) {
@@ -163,7 +158,7 @@
 
 
 
- /* '16.PayBC': function (browser) {
+  '16.PayBC': function (browser) {
     browser
       .waitForElementVisible('#paylistbutton')
       .click('#paylistbutton')
@@ -179,9 +174,8 @@
   '17.Verify Dashboard after filing': function (browser) {
     dashboard = browser.page.dashboardPage();
     dashboard.assert.containsText('@toDoListHeader', 'To Do (1)');
-    dashboard.assert.containsText('@filingHistoryHeader', 'Recent Filing History (1)');
+    dashboard.assert.containsText('@filingHistoryHeader', 'Recent Filing History (57)');
     dashboard.assert.containsText('@topFilingInHistoryName', 'Address Change');
-    dashboard.assert.containsText('@topFilingInHistoryStatus', 'FILED AND PAID');
    // dashboard.verifyDirectorCount(browser.globals.CP0000019.director_count);
     dashboard.assert.containsText('@mailingAddressLabel', 'Mailing Address');
     dashboard.assert.containsText('@mailingLine1', '123 test street');
@@ -191,5 +185,5 @@
     dashboard.assert.containsText('@deliveryLine1', '123 test street');
     dashboard.assert.containsText('@deliveryLine2', 'Victoria BC V8V 4K9');
     dashboard.assert.containsText('@deliveryLine3', 'CA');
-  }*/
+  }
 };
