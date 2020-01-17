@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="0">
+
+  <testsuite name="coops.COD"
+    errors="1" failures="0" hostname="" id="" package="coops" skipped="17"
+    tests="0" time="0.000" timestamp="">
+  
+
+  
+    <system-err>
+      [0;31m  TypeError: Cannot read property &#39;map&#39; of undefined[0m
+[0;90m       at Stream.ondata (internal/streams/legacy.js:15:31)[0m
+    </system-err>
+  
+
+  
+    
+    <testcase
+      name="Verify initial login with bcsc" classname="coops.COD">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Enter contact information" classname="coops.COD">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="1.Verify initial state of dashboard, then start COD filing" classname="coops.COD">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="2.Confirm initial state of COD filing" classname="coops.COD">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="3.Appoint New Director" classname="coops.COD">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="4.Certify who filed" classname="coops.COD">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="5.Save draft and resume later" classname="coops.COD">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="6.Resume draft from Dashboard" classname="coops.COD">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="7.Verify draft resumed correctly then return to dashoard" classname="coops.COD">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="8.Assert the directors are present" classname="coops.COD">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="9.Delete draft" classname="coops.COD">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="10.Start COD filing after deleting draft" classname="coops.COD">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="11.Confirm initial state of COD filing - POST DRAFT" classname="coops.COD">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="12.Appoint New DIRECTOR - POST DRAFT" classname="coops.COD">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="13.Certify who filed - POST DRAFT" classname="coops.COD">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="14.PayBC" classname="coops.COD">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="15.Verify Dashboard after filing" classname="coops.COD">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>
+ashboard after filing" classname="coops.COD">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

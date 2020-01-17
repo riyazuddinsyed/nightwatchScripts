@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="1"
+            tests="15">
+
+  <testsuite name="coops.COA"
+    errors="1" failures="1" hostname="" id="" package="coops" skipped="0"
+    tests="15" time="212.7" timestamp="">
+  
+    <testcase name="Signin" classname="coops.COA" time="17.02" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify initial state of dashboard, then start COA filing" classname="coops.COA" time="22.49" assertions="19">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Confirm initial state of COA filing" classname="coops.COA" time="15.87" assertions="15">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Edit the Office Addresses" classname="coops.COA" time="24.20" assertions="16">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Certify who filed" classname="coops.COA" time="2.832" assertions="0">
+    </testcase>
+  
+    <testcase name="Save draft and resume later" classname="coops.COA" time="1.306" assertions="0">
+    </testcase>
+  
+    <testcase name="Resume draft from Dashboard" classname="coops.COA" time="3.793" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Verify draft resumed correctly then return to dashoard" classname="coops.COA" time="15.86" assertions="12">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Delete draft" classname="coops.COA" time="7.542" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Start COA filing after deleting draft" classname="coops.COA" time="4.649" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Confirm initial state of COA filing - POST DRAFT" classname="coops.COA" time="16.96" assertions="15">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Edit the Office Addresses - POST DRAFT" classname="coops.COA" time="21.60" assertions="16">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Certify who filed - POST DRAFT" classname="coops.COA" time="4.626" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="PayBC" classname="coops.COA" time="23.86" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify Dashboard after filing" classname="coops.COA" time="30.14" assertions="1">  <failure message="Testing if element &lt;Element [name=@toDoListHeader]&gt; contains text: &#34;To Do (1)&#34;. Element could not be located in 30000 ms. - expected [0;32m&#34;To Do (1)&#34;[0m but got: [0;31m&#34;null&#34;[0m">    at Object.Verify Dashboard after filing (C:\Users\Syed Riyaz\Desktop\reference\entity-master\e2e\tests\coops\COA.js:172:22)</failure>
+
+    
+    </testcase>
+  
+
+  
+    <system-err>
+      [0;31m  TypeError: Cannot read property &#39;map&#39; of undefined[0m
+[0;90m       at Stream.ondata (internal/streams/legacy.js:15:31)[0m
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>
+process._tickCallback (internal/process/next_tick.js:63:19)[0m
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>

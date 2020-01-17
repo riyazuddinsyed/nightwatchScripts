@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="9">
+
+  <testsuite name="coops.staffCOA"
+    errors="0" failures="0" hostname="" id="" package="coops" skipped="0"
+    tests="9" time="48.11" timestamp="">
+  
+    <testcase name="Login with IDIR" classname="coops.staffCOA" time="10.09" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Login To Dashboard" classname="coops.staffCOA" time="2.227" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify initial state of dashboard, then start AR filing" classname="coops.staffCOA" time="10.46" assertions="19">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Confirm initial state of COA filing" classname="coops.staffCOA" time="4.777" assertions="15">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Edit the Office Addresses" classname="coops.staffCOA" time="7.905" assertions="16">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Certify who filed" classname="coops.staffCOA" time="1.052" assertions="0">
+    </testcase>
+  
+    <testcase name="Save draft and resume later" classname="coops.staffCOA" time="0.4940" assertions="0">
+    </testcase>
+  
+    <testcase name="Resume draft from Dashboard" classname="coops.staffCOA" time="5.277" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Verify draft resumed correctly then return to dashoard" classname="coops.staffCOA" time="5.829" assertions="12">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+    <system-err>
+      [0;31m  Error: spawn wmic.exe ENOENT[0m
+[0;90m       at Process.ChildProcess._handle.onexit (internal/child_process.js:240:19)
+       at onErrorNT (internal/child_process.js:415:16)
+       at process._tickCallback (internal/process/next_tick.js:63:19)[0m
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>

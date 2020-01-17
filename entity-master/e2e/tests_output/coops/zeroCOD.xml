@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="0">
+
+  <testsuite name="coops.zeroCOD"
+    errors="1" failures="0" hostname="" id="" package="coops" skipped="3"
+    tests="0" time="0.000" timestamp="">
+  
+
+  
+
+  
+    
+    <testcase
+      name="Signin" classname="coops.zeroCOD">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Verify initial state of dashboard, then start COD filing" classname="coops.zeroCOD">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Confirm initial state of COD filing" classname="coops.zeroCOD">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

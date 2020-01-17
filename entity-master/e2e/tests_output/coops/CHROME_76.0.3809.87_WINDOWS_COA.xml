@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="17">
+
+  <testsuite name="coops.COA"
+    errors="0" failures="0" hostname="" id="" package="coops" skipped="0"
+    tests="17" time="229.5" timestamp="">
+  
+    <testcase name="Verify initial login with bcsc" classname="coops.COA" time="41.33" assertions="15">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Enter contact information" classname="coops.COA" time="9.216" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify initial state of dashboard, then start COA filing" classname="coops.COA" time="14.52" assertions="17">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Confirm initial state of COA filing" classname="coops.COA" time="10.68" assertions="15">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Edit the Office Addresses" classname="coops.COA" time="16.05" assertions="12">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Certify who filed" classname="coops.COA" time="2.139" assertions="0">
+    </testcase>
+  
+    <testcase name="Save draft and resume later" classname="coops.COA" time="0.9860" assertions="0">
+    </testcase>
+  
+    <testcase name="Resume draft from Dashboard" classname="coops.COA" time="11.38" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Verify draft resumed correctly then return to dashoard" classname="coops.COA" time="9.317" assertions="9">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Delete draft" classname="coops.COA" time="8.374" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Start COA filing after deleting draft" classname="coops.COA" time="2.767" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Confirm initial state of COA filing - POST DRAFT" classname="coops.COA" time="10.74" assertions="15">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Edit the Office Addresses - POST DRAFT" classname="coops.COA" time="14.93" assertions="12">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Certify who filed - POST DRAFT" classname="coops.COA" time="2.649" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Check with Resume Payment/Cancel Payment" classname="coops.COA" time="53.03" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Resume draft from Dashboard after Cancel Payment" classname="coops.COA" time="11.96" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Verify draft resumed correctly after Cancel Payment" classname="coops.COA" time="9.422" assertions="9">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+    <system-err>
+      [0;31m  TypeError: Cannot read property &#39;map&#39; of undefined[0m
+[0;90m       at Stream.ondata (internal/streams/legacy.js:15:31)[0m
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>
+process._tickCallback (internal/process/next_tick.js:63:19)[0m
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>

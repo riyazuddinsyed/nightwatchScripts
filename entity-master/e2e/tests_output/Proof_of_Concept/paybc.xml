@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="0">
+
+  <testsuite name="Proof_of_Concept.paybc"
+    errors="1" failures="0" hostname="" id="" package="Proof_of_Concept" skipped="5"
+    tests="0" time="0.000" timestamp="">
+  
+
+  
+
+  
+    
+    <testcase
+      name="Coops Login" classname="Proof_of_Concept.paybc">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Coops Dasboard to COD" classname="Proof_of_Concept.paybc">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="File and Pay" classname="Proof_of_Concept.paybc">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="PayBC" classname="Proof_of_Concept.paybc">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Confirm Filing Completes" classname="Proof_of_Concept.paybc">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

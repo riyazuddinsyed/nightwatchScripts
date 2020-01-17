@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="coops.zeroCOD"
+    errors="0" failures="1" hostname="" id="" package="coops" skipped="2"
+    tests="1" time="30.52" timestamp="">
+  
+    <testcase name="Signin" classname="coops.zeroCOD" time="30.52" assertions="1">  <failure message="Timed out while waiting for element &lt;#input-17&gt; to be present for 30000 milliseconds. - expected [0;32m&#34;visible&#34;[0m but got: [0;31m&#34;not found&#34;[0m">    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+
+    
+    </testcase>
+  
+
+  
+    <system-err>
+      [0;31m  TypeError: Cannot read property &#39;map&#39; of undefined[0m
+[0;90m       at Stream.ondata (internal/streams/legacy.js:15:31)[0m
+    </system-err>
+  
+
+  
+    
+    <testcase
+      name="Verify initial state of dashboard, then start COD filing" classname="coops.zeroCOD">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Confirm initial state of COD filing" classname="coops.zeroCOD">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>
+ate of COD filing" classname="coops.zeroCOD">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

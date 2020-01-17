@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="1"
+            tests="17">
+
+  <testsuite name="coops.ar"
+    errors="1" failures="1" hostname="" id="" package="coops" skipped="0"
+    tests="17" time="264.1" timestamp="">
+  
+    <testcase name="Signin" classname="coops.ar" time="15.14" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify initial state of dashboard, then start AR filing" classname="coops.ar" time="22.67" assertions="18">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Confirm initial state of Annual Report" classname="coops.ar" time="16.19" assertions="22">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Edit the Office Addresses" classname="coops.ar" time="17.41" assertions="16">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Appoint a Director" classname="coops.ar" time="26.23" assertions="8">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Certify who filed" classname="coops.ar" time="1.931" assertions="0">
+    </testcase>
+  
+    <testcase name="Save draft and resume later" classname="coops.ar" time="1.183" assertions="0">
+    </testcase>
+  
+    <testcase name="Resume draft from Dashboard" classname="coops.ar" time="6.613" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Verify draft resumed correctly then return to dashoard" classname="coops.ar" time="14.85" assertions="13">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Delete draft" classname="coops.ar" time="8.516" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Start AR filing after deleting draft" classname="coops.ar" time="4.907" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Confirm initial state of Annual Report - POST DRAFT" classname="coops.ar" time="16.25" assertions="22">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Edit the Office Addresses - POST DRAFT" classname="coops.ar" time="24.14" assertions="16">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Appoint a Director - POST DRAFT" classname="coops.ar" time="24.76" assertions="8">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Certify who filed - POST DRAFT" classname="coops.ar" time="4.044" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="PayBC" classname="coops.ar" time="28.51" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Verify Dashboard after filing" classname="coops.ar" time="30.78" assertions="1">  <failure message="Testing if element &lt;Element [name=@toDoListHeader]&gt; contains text: &#34;To Do (0)&#34;. Element could not be located in 30000 ms. - expected [0;32m&#34;To Do (0)&#34;[0m but got: [0;31m&#34;null&#34;[0m">    at Object.Verify Dashboard after filing (C:\Users\Syed Riyaz\Desktop\reference\entity-master\e2e\tests\coops\ar.js:195:22)</failure>
+
+    
+    </testcase>
+  
+
+  
+    <system-err>
+      [0;31m  TypeError: Cannot read property &#39;map&#39; of undefined[0m
+[0;90m       at Stream.ondata (internal/streams/legacy.js:15:31)[0m
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>
+process._tickCallback (internal/process/next_tick.js:63:19)[0m
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>

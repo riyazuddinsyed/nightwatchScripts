@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="0">
+
+  <testsuite name="coops.staffSearch"
+    errors="1" failures="0" hostname="" id="" package="coops" skipped="10"
+    tests="0" time="0.000" timestamp="">
+  
+
+  
+
+  
+    
+    <testcase
+      name="Login with IDIR" classname="coops.staffSearch">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Login To Dashboard" classname="coops.staffSearch">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Verify initial state of dashboard, then start AR filing" classname="coops.staffSearch">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Confirm initial state of Annual Report" classname="coops.staffSearch">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Edit the Office Addresses" classname="coops.staffSearch">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Appoint a Director" classname="coops.staffSearch">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Certify who filed" classname="coops.staffSearch">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Save draft and resume later" classname="coops.staffSearch">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Resume draft from Dashboard" classname="coops.staffSearch">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Verify draft resumed correctly then return to dashoard" classname="coops.staffSearch">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

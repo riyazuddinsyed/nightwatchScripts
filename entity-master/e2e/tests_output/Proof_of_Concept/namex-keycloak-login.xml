@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="0">
+
+  <testsuite name="Proof_of_Concept.namex-keycloak-login"
+    errors="1" failures="0" hostname="" id="" package="Proof_of_Concept" skipped="1"
+    tests="0" time="0.000" timestamp="">
+  
+
+  
+
+  
+    
+    <testcase
+      name="NameX login Keycloak creds" classname="Proof_of_Concept.namex-keycloak-login">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

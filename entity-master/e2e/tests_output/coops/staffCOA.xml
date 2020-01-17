@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="0">
+
+  <testsuite name="coops.staffCOA"
+    errors="1" failures="0" hostname="" id="" package="coops" skipped="9"
+    tests="0" time="0.000" timestamp="">
+  
+
+  
+
+  
+    
+    <testcase
+      name="Login with IDIR" classname="coops.staffCOA">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Login To Dashboard" classname="coops.staffCOA">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Verify initial state of dashboard, then start AR filing" classname="coops.staffCOA">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Confirm initial state of COA filing" classname="coops.staffCOA">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Edit the Office Addresses" classname="coops.staffCOA">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Certify who filed" classname="coops.staffCOA">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Save draft and resume later" classname="coops.staffCOA">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Resume draft from Dashboard" classname="coops.staffCOA">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Verify draft resumed correctly then return to dashoard" classname="coops.staffCOA">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>
