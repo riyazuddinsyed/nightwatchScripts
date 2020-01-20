@@ -68,8 +68,7 @@ var ArFilingsCommands = {
             .waitForElementVisible('@newDirectorLastName')
             .setValue('@newDirectorLastName', 'Last')
             .setValue('@newDirectorStreetAddress', '123 test st')
-           // .moveToElement('@newDirectorCity', 5, 5)
-           .waitForElementVisible('@newDirectorCity')
+            .waitForElementVisible('@newDirectorCity')
             .setValue('@newDirectorCity', 'Victoria')
             .setValue('@newDirectorProvinceBox','BC')
             .setValue('@newDirectorPostalCode', 'V9A 1A7')
@@ -77,7 +76,6 @@ var ArFilingsCommands = {
             .click('@newDirectorCountry')
             .click('@NewDirectorCountrySelect')
             .click('@newDirectorDoneButton')
-            //.waitForElementVisible('@newDirectorChip');
     }
 };
 module.exports={
@@ -101,7 +99,6 @@ module.exports={
         officeDeliveryAdditional: "#office-addresses > div > ul > li:nth-child(2) > div > div > div.address-wrapper > div > form > div:nth-child(2) > div > div > div.v-input__slot > div > input[type=text]",
         officeDeliveryCity: "#office-addresses > div > ul > li:nth-child(2) > div > div > div.address-wrapper > div > form > div.form__row.three-column > div.v-input.item.address-city.v-input--is-label-active.v-input--is-dirty.theme--light.v-text-field.v-text-field--filled.v-text-field--is-booted.v-text-field--enclosed > div > div.v-input__slot > div > input[type=text]",
         officeDeliveryPostalCode: "#office-addresses > div > ul > li:nth-child(2) > div > div > div.address-wrapper > div > form > div.form__row.three-column > div.v-input.item.postal-code.v-input--is-label-active.v-input--is-dirty.theme--light.v-text-field.v-text-field--filled.v-text-field--is-booted.v-text-field--enclosed > div > div.v-input__slot > div > input[type=text]",
-       // officeDeliveryCountry: "#annual-report-article > div > section:nth-child(2) > div > ul > li:nth-child(1) > div > div > div.meta-container__inner > form > div:nth-child(4) > div > div > div.v-input__slot > div > input",
         officeDeliveryDeliveryInstructions: "#office-addresses > div > ul > li:nth-child(2) > div > div > div.address-wrapper > div > form > div:nth-child(5) > div > div > div.v-input__slot > div > textarea",
         appointDirectorButton: "#directors > div:nth-child(2) > button",
         newDirectorFirstName: "#new-director__first-name",
