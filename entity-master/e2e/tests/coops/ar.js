@@ -23,7 +23,7 @@ module.exports = {
     dashboard = browser.page.dashboardPage();
     dashboard.verifyTombstone(browser.globals.CP0000019);
     dashboard.verifyAddresses(browser.globals.CP0000019);
-    dashboard.verifyDirectorCount(browser.globals.CP0000019.director_count);
+  //  dashboard.verifyDirectorCount(browser.globals.CP0000019.director_count);
     dashboard.verifyTodolistandRecentFilings();
     dashboard.startArFiling();
   },
@@ -193,7 +193,7 @@ module.exports = {
   '18.PayBC': function (browser) {
     browser
       .waitForElementVisible('#paylistbutton')
-      //.click('#paylistbutton')
+      .click('#paylistbutton')
       .waitForElementVisible('#credit_payBtn')
       .click('#credit_payBtn')
       .waitForElementVisible('input[name=trnCardNumber]')
